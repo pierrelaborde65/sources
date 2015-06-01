@@ -1,0 +1,309 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*
+	background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	*/
+	background-image: -webkit-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+	font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.into-text {
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+	font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.formulaire {
+	margin-left: 150px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+.img-logo {
+	height: 25%;
+	width: 25%;
+	}
+
+.img-right {
+	height: 38%;
+	width: 38%;
+	margin-left:560px;
+
+	}
+	
+.img-center-medium {
+	margin-left: auto;
+    margin-right: auto;
+	height: 45%;
+	width: 45%;
+	}
+	
+.img-center-small {
+	margin-left: auto;
+    margin-right: auto;
+	height: 20%;
+	width: 20%;
+	}
+
+.img-center {
+	margin-left: auto;
+    margin-right: auto;
+	min-width: 75%;
+	}
+	
+.img-logo-polytech {
+	height: 15%;
+	width: 15%;
+	border: #999999 solid 1px;
+	margin-left: 20px;
+    margin-top: 10px;
+	}
+
+.img-logo-universite {
+	height: 5%;
+	width: 5%;
+	border: #999999 solid 1px;
+	margin-left: 1200px;
+    margin-top: 10px;
+	}
+
+.img-logo-IG {
+	height: 4%;
+	width: 4%;
+	border: #999999 solid 1px;
+	margin-left: 1360px;
+    margin-top: -95px;
+	}
+
+#tab
+{
+	margin: auto;
+    border: #FE1B00 2px solid;
+    border-collapse: separate;
+    border-spacing: 2px;
+}	
+
+#tab caption
+{
+	font-size: 2em;
+}
+
+#tab th
+{
+    background-color: #54b4eb;
+    border: #FFCC66 1px solid;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+#tab td
+{
+    border: #FFCC66 1px solid;
+
+}
+
+.text-italic {
+	font-style : italic;
+}
+
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+	.policy {
+		font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 1.25em;
+		font-weight: 700;
+	}
+	
+	.policy2 {
+		font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 1.4em;
+		font-weight: 700;
+	}
+	
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+		width: 200px;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
