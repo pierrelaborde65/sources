@@ -1,15 +1,8 @@
 <html>
 	<meta charset="utf-8" />
 	<?php
-		try
-	{
-		// On se connecte à MySQL
-			$bdd = new PDO('mysql:host=127.8.29.2;dbname=php;charset=utf8', 'admindCkYDZC', 'QwHKI9Z7QJ56', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-	}
-	catch(Exception $e)
-	{
-		die('Erreur : '.$e->getMessage());
-	}	
+	include('bdd.php');
+		
 	// On vérifie que l'utilisateur a bien rempli le formulaire
 	if(!(isset($_POST['identifiant']) AND isset($_POST['mot_de_passe'])))
 		{

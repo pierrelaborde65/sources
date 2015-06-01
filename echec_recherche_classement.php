@@ -1,13 +1,6 @@
 <?php 
-	try
-	{
-		// On se connecte à MySQL
-			$bdd = new PDO('mysql:host=127.8.29.2;dbname=php;charset=utf8', 'admindCkYDZC', 'QwHKI9Z7QJ56', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-	}
-	catch(Exception $e)
-	{
-		die('Erreur : '.$e->getMessage());
-	}
+	include('bdd.php');
+	
 	// On regarde si l'utilisateur est connecté, càd si son cookie identifiant est non nul
 	if(!isset($_COOKIE['identifiant']))
 		header("Refresh: 0; URL=http://php-meilleuretudiant.rhcloud.com/non_connecte_classement.php" );
